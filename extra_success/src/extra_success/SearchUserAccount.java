@@ -21,15 +21,15 @@ public class SearchUserAccount {
 	 * @param userNameOrNumber
 	 * @return
 	 */
-	public boolean findUserAccount() {
+	public User findUserAccount() {
 		for(User user: userList) {
 			if(userNameOrNumber.equals(user.getNumber())) {
-				return true;
+				return user;
 			}
 			if(userNameOrNumber.equals(user.getNumber())) {
-				return true;
+				return user;
 			}
 		}
-		return false;
+		return null;
 	}
 }
