@@ -21,7 +21,7 @@ public class SearchUserAccount {
 	 * @param userNameOrNumber
 	 * @return
 	 */
-	public boolean findExamNumber(String userNameOrNumber) {
+	public boolean findUserAccount() {
 		for(User user: userList) {
 			if(userNameOrNumber.equals(user.getNumber())) {
 				return true;
