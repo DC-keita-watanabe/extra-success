@@ -3,7 +3,7 @@ package extra_success;
 import java.util.ArrayList;
 
 public class ExamResultManager {
-	private static ArrayList userList = new ArrayList();
+	private static ArrayList<User> userList = new ArrayList<>();
 	
 	/**
 	 * userListに受験情報を持ったuserインスタンスを
