@@ -14,8 +14,9 @@ public class Main {
 		        "堤真一", "北川景子", "松本潤", "高橋美咲",
 		    };
 		
-		AccountCreator accountCreator  = new AccountCreator(names[0]);
-		System.out.println(accountCreator.getUser().toString());
+		for(String name: names) {
+			ExamResultManager.addUser(name);
+		}
 	}
 
 }
