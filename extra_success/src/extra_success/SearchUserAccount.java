@@ -6,6 +6,11 @@ public class SearchUserAccount {
 	String userNameOrNumber;
 	ArrayList<User> userList;
 	
+	/**
+	 * コンストラクタ
+	 * @param _userNameOrNumber
+	 * @param _userList
+	 */
 	public SearchUserAccount(String _userNameOrNumber, ArrayList<User> _userList) {
 		this.userNameOrNumber = _userNameOrNumber;
 		this.userList = _userList;
