@@ -13,6 +13,5 @@ public class ExamResultManager {
 	public static void addUser(String userName) {
 		AccountCreator accountCreator  = new AccountCreator(userName);
 		userList.add(accountCreator.getUser());
-		System.out.println(accountCreator.getUser().toString());
 	}
 }
