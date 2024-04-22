@@ -23,7 +23,7 @@ public class SearchUserAccount {
 	 */
 	public User findUserAccount() {
 		for(User user: userList) {
-			if(userNameOrNumber.equals(user.getNumber())) {
+			if(userNameOrNumber.equals(user.getName())) {
 				return user;
 			}
 			if(userNameOrNumber.equals(user.getNumber())) {
