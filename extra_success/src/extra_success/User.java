@@ -5,6 +5,12 @@ public class User {
 	private String number;
 	private boolean isPassed;
 	
+	/**
+	 * コンストラクタ
+	 * @param _name
+	 * @param _number
+	 * @param _isPassed
+	 */
 	public User(String _name, String _number, boolean _isPassed) {
 		this.name = _name;
 		this.number = _number;
@@ -27,5 +33,7 @@ public class User {
 		this.isPassed = _isPassed;
 	}
 
-	
+	public String toString() {
+		return this.name + "  " + this.number + "  " + this.isPassed;
+	}  
 }
