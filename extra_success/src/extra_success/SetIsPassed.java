@@ -1,10 +1,10 @@
 package extra_success;
 
-public class setIsPassed {
+public class SetIsPassed {
 	private User user;
 	private String isPassed;
 	
-	public setIsPassed(User _user, String _isPassed) {
+	public SetIsPassed(User _user, String _isPassed) {
 		this.user = _user;
 		this.isPassed = _isPassed;
 	}
